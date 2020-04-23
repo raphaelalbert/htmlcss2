@@ -1,1 +1,92 @@
-css design
+@charset "utf-8";
+
+body{
+    background-color: rgba(255, 205, 240, 0.377);
+    margin: 0px;
+    padding: 0px;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url("C:\Users\user\Documents\imgs\4k-wallpaper-architecture-background-1308624.jpg")
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px opx 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42;
+    transform: translate(-13,-42);
+}
+.me{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+    transform: translateX(-70);
+}
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-container img{
+    height: 250px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2){
+    color: #3e3d3d;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+}
